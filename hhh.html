@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ch-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <video id="v1" autoplay muted loop style="width: 100%">
+      <source src="鸡汤来咯.mp4" />
+      <style>
+        video {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: -999;
+          /*灰色调*/
+          /*-webkit-filter:grayscale(100%)*/
+        }
+      </style>
+    </video>
+    <audio
+      autoplay="autoplay"
+      controls="controls"
+      loop="loop"
+      preload="auto"
+      src="鸡汤来咯.mp3"
+    ></audio>
+  </body>
+</html>
